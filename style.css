@@ -1,5 +1,5 @@
 * {
-	background: #FFF;
+	background: rgb(255, 187, 255);
 }
 
 #masthead {
@@ -7,8 +7,6 @@
 	width: 100%;
 	margin: 0 0 30px;
 	overflow: auto;
-	color: rgb(238, 172, 255);
-	background: rgb(128, 0, 122);
 	border-bottom: 2px solid #FFF;
 }
 .container {
@@ -20,13 +18,14 @@
 nav {
 	float: right;
 	margin-top: 25px;
+	
 }
 nav a {
 	display: inline-block;
 	padding-left: 15px;
 	margin-left: 15px;
 	line-height: 18px;
-	color: rgb(255, 255, 255);
+	background: rgb(255, 187, 255);
 	text-decoration: none;
 	border-left: 1px solid gray;
 }
@@ -35,6 +34,7 @@ nav a: first-child {
 }
 #main-container {
 	padding-top: 130px;
+	
 }
 .main-section {
 	float: left;
@@ -42,8 +42,8 @@ nav a: first-child {
 	max-width: 650px;
 	padding: 30px;
 	margin: 0 0 40px;
-	background: #fff;
-	border: 1px solid #ddd;
+
+	border: 1px solid #000;
 }
 .auth-image {
 	float: left;
@@ -58,19 +58,29 @@ nav a: first-child {
 	max-width: 270px;
 	padding: 30px;
 	margin-bottom: 20px;
-	background: rgb(255, 186, 246);
+
 	border: 10px dotted black;
 }
 h3, .sidebar h2 {
 	padding-bottom: 20px;
 	margin-bottom: 15px;
 	line-height: 22px;
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid rgb(255, 187, 255);
 }
 
 .social {
 	width: 270px;
-	height: 100px;
+	height: 170px;
 	margin-top: 8px;
 	margin-right: 5px; 
+}
+
+footer {
+	padding: 30px 0;
+	clear: both;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	background: rgb(255, 160, 160);
+	border-top: 8px solid black;
 }
