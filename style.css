@@ -1,7 +1,19 @@
 * {
-	background: rgb(255, 187, 255);
+	
+	box-sizing: border-box;
 }
 
+
+ /* general */
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+ /*header*/
 #masthead {
 	position: fixed;
 	width: 100%;
@@ -10,19 +22,16 @@
 	border-bottom: 2px solid #FFF;
 	background: rgb(255, 118, 164);
 }
-.container {
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	clear: both;
-	
-}
+
+
 nav {
 	float: right;
 	margin-top: 25px;
 	font-size: 18px;
 	background: rgb(255, 118, 164);
 }
+
+
 nav a {
 	display: inline-block;
 	padding-left: 15px;
@@ -32,14 +41,21 @@ nav a {
 	text-decoration: none;
 	border-left: 1px solid gray;
 }
+
+
 nav a: first-child {
 	border-left: 0 none;
 	background: rgb(255, 118, 164);
 }
+
+
+/*main*/
 #main-container {
 	padding-top: 130px;
 	
 }
+
+
 .main-section {
 	float: left;
 	width: 100%;
@@ -49,6 +65,8 @@ nav a: first-child {
 
 	border: 1px solid #000;
 }
+
+
 .auth-image {
 	float: left;
 	width: 200px;
@@ -56,21 +74,26 @@ nav a: first-child {
 	margin-top: 10px;
 	margin-right: 25px;
 }
+
+
+/*sidebar*/
 .sidebar {
 	float: right;
 	width: 100%;
 	max-width: 270px;
 	padding: 30px;
 	margin-bottom: 20px;
-
 	border: 10px dotted black;
 }
+
+
 h3, .sidebar h2 {
 	padding-bottom: 20px;
 	margin-bottom: 15px;
 	line-height: 22px;
 	border-bottom: 2px solid rgb(255, 187, 255);
 }
+
 
 .social {
 	width: 270px;
@@ -79,6 +102,8 @@ h3, .sidebar h2 {
 	margin-right: 5px; 
 }
 
+
+/*portfolio page*/
 .work {
 	position: relative;
 	float: left;
@@ -87,6 +112,43 @@ h3, .sidebar h2 {
 	overflow: auto;
 }
 
+.work:nth-chid(even) {
+	margin-right: 40px;
+}
+
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8%;
+}
+
+.work h3 {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	background: black;
+	border-bottom: 0;
+}
+
+.coolcopy {
+	background: rgb(255, 160, 160);
+}
+
+.cool {
+	background: rgb(255, 118, 164);
+}
+
+
+
+
+
+/*footer*/
 footer {
 	padding: 30px 0;
 	clear: both;
