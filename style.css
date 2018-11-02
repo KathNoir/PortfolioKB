@@ -1,3 +1,12 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	color: black;
+	background-image: url(https://paulvanderlaken.files.wordpress.com/2017/12/snow3.gif?w=371);
+}
+/*background use background-image: url(https://paulvanderlaken.files.wordpress.com/2017/12/snow3.gif?w=371); gif */
+
 * {
 	
 	box-sizing: border-box;
@@ -11,7 +20,41 @@
 	margin: 0 auto;
 	clear: both;
 }
+.container a {
+	text-decoration: None;
+	font-size: 16px;
+	color: white;
+}
 
+h1,
+h2,
+h3,
+p {
+	margin-bottom: 20px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 700;
+	color: springgreen;
+}
+
+h1 {
+	padding-bottom: 20px;
+	font-size: 30px;
+	line-height: 40px;
+	border-bottom: 3px solid aqua;
+}
+h2,
+h3 {
+	font-size: 32px;
+}
 
  /*header*/
 #masthead {
@@ -136,7 +179,7 @@ h3, .sidebar h2 {
 	border-bottom: 0;
 }
 
-.coolcopy {
+.copyright.color {
 	background: rgb(255, 160, 160);
 }
 
