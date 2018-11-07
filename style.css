@@ -22,7 +22,6 @@ body {
 }
 .container a {
 	text-decoration: None;
-	font-size: 16px;
 	color: white;
 }
 
@@ -42,18 +41,18 @@ h2,
 h3 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 700;
-	color: springgreen;
+	color: rgb(255, 118, 164);
 }
 
 h1 {
 	padding-bottom: 20px;
 	font-size: 30px;
-	line-height: 40px;
+	line-height: 49px;
 	border-bottom: 3px solid aqua;
 }
 h2,
 h3 {
-	font-size: 32px;
+	font-size: 22px;
 }
 
  /*header*/
@@ -62,6 +61,7 @@ h3 {
 	width: 100%;
 	margin: 0 0 30px;
 	overflow: auto;
+	color: white;
 	border-bottom: 2px solid #FFF;
 	background: rgb(255, 118, 164);
 }
@@ -83,6 +83,7 @@ nav a {
 	background: rgb(255, 118, 164);
 	text-decoration: none;
 	border-left: 1px solid gray;
+	margin-top: 25px;
 }
 
 
@@ -105,7 +106,7 @@ nav a: first-child {
 	max-width: 650px;
 	padding: 30px;
 	margin: 0 0 40px;
-
+	background: paleturquoise;
 	border: 1px solid #000;
 }
 
@@ -126,7 +127,8 @@ nav a: first-child {
 	max-width: 270px;
 	padding: 30px;
 	margin-bottom: 20px;
-	border: 10px dotted black;
+	background: paleturquoise;
+	border: 2px dotted black;
 }
 
 
@@ -139,8 +141,8 @@ h3, .sidebar h2 {
 
 
 .social {
-	width: 270px;
-	height: 170px;
+	width: 80px;
+	height: 62px;
 	margin-top: 8px;
 	margin-right: 5px; 
 }
@@ -183,11 +185,40 @@ h3, .sidebar h2 {
 	background: rgb(255, 160, 160);
 }
 
-.cool {
-	background: rgb(255, 118, 164);
+#contact-form ul {
+	margin-bottom: 20px;
 }
 
+#contact-form li {
+	margin-bottom: 10px;
+}
 
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	height: 35px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid forestgreen;
+}
+
+textarea {
+	height: 200px;
+}
+
+input[type=submit] {
+	padding: 10px 30px;
+	font-size: 18px;
+	color: royalblue
+}
 
 
 
