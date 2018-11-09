@@ -66,6 +66,18 @@ h3 {
 	background: rgb(255, 160, 160);
 }
 
+#nameArt {
+	float: left;
+	width: 250px;
+	height: 90px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 700;
+	line-height: 90px;
+	color: rgb(255, 160, 160);
+	text-align: center;
+	text-decoration: none;
+	background: paleturquoise;
+}
 
 nav {
 	float: right;
@@ -108,7 +120,7 @@ nav a: first-child {
 	padding: 30px;
 	margin: 0 0 40px;
 	background: paleturquoise;
-	border: 1px solid #000;
+	border: 3px dotted #000;
 }
 
 
@@ -222,7 +234,7 @@ input[type=submit] {
 }
 
 .container {
-	margin-top: 45px;
+	margin-top: px;
 }
 
 
