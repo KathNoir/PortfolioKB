@@ -41,7 +41,7 @@ h2,
 h3 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 700;
-	color: rgb(255, 118, 164);
+	color: rgb(255, 160, 160);
 }
 
 h1 {
@@ -63,7 +63,7 @@ h3 {
 	overflow: auto;
 	color: white;
 	border-bottom: 2px solid #FFF;
-	background: rgb(255, 118, 164);
+	background: rgb(255, 160, 160);
 }
 
 
@@ -71,7 +71,7 @@ nav {
 	float: right;
 	margin-top: 25px;
 	font-size: 18px;
-	background: rgb(255, 118, 164);
+	background: rgb(255, 160, 160);
 }
 
 
@@ -80,16 +80,17 @@ nav a {
 	padding-left: 15px;
 	margin-left: 15px;
 	line-height: 18px;
-	background: rgb(255, 118, 164);
+	background: rgb(255, 160, 160);
 	text-decoration: none;
 	border-left: 1px solid gray;
 	margin-top: 25px;
+
 }
 
 
 nav a: first-child {
 	border-left: 0 none;
-	background: rgb(255, 118, 164);
+	background: rgb(255, 160, 160);
 }
 
 
@@ -128,7 +129,7 @@ nav a: first-child {
 	padding: 30px;
 	margin-bottom: 20px;
 	background: paleturquoise;
-	border: 2px dotted black;
+	border: 3px dotted black;
 }
 
 
@@ -220,6 +221,9 @@ input[type=submit] {
 	color: royalblue
 }
 
+.container {
+	margin-top: 45px;
+}
 
 
 /*footer*/
@@ -227,7 +231,7 @@ footer {
 	padding: 30px 0;
 	clear: both;
 	font-size: 14px;
-	color: black;
+	color: white;
 	text-align: center;
 	background: rgb(255, 160, 160);
 	border-top: 8px solid black;
